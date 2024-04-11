@@ -1,0 +1,48 @@
+Categories
+----------
+categoryid pk
+categoryname
+icon
+
+Brands
+-----
+categoryid fk
+brandid pk
+brandname
+logo
+
+products
+--------
+categoryid fk
+brandid fk
+productid pk 
+productname
+picture
+
+productdetails
+--------------
+categoryid fk
+brandid fk
+productid fk
+productdetails pk
+modelno.
+description
+color
+price
+offerprice
+stock
+HSN 
+radio
+picture
+
+Banner
+------
+bannerid pk
+files
+
+categorybanner
+--------------
+categorybannerid
+categoryid
+brandid
+files
